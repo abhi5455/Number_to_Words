@@ -262,6 +262,6 @@ public class Num_to_Word {
         WordConverter C= new WordConverter();
         System.out.println("Enter the value in number: ");
         int num= sc.nextInt();
-        System.out.println(num+" in Words -   "+C.convert(num)+ " /- Only");
+        System.out.println(num+" in Words -   "+ C.convert(num) + " /- Only");
     }
 }
