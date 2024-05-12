@@ -262,6 +262,12 @@ public class Num_to_Word {
         WordConverter C= new WordConverter();
         System.out.println("Enter the value in number: ");
         int num= sc.nextInt();
-        System.out.println(num+" in Words -   "+ C.convert(num) + ".");
+        String sign=new String("");
+        int num1=num;
+        if(num<0){
+            num1=num*-1;
+            sign="Negative ";
+        }
+        System.out.println(num+" in Words -   "+sign+ C.convert(num1) + ".");
     }
 }
