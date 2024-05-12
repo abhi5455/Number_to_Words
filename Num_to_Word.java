@@ -209,6 +209,8 @@ class WordConverter
                             break;
                         case 9: Word+=" Nineteen";
                             break;
+                        case 0: Word+=" Ten";
+                            break;
                     }
                     break;
                 case 2: Word+=" Twenty";
