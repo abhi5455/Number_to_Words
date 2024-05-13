@@ -262,7 +262,7 @@ public class Num_to_Word {
     public static void main(String[] args){
         Scanner sc= new Scanner(System.in);
         WordConverter C= new WordConverter();
-        System.out.println("Enter the value in number: ");
+        System.out.print("Enter the value in number: ");
         int num= sc.nextInt();
         String sign=new String("");
         int num1=num;
